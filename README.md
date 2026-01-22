@@ -1,1 +1,1 @@
-# AUREA
+# AURÉA
