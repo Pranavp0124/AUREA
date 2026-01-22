@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - AURÉA</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header sticky-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">AURÉA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="search-box">
+                            <input type="text" placeholder="Search for products, brands and more">
+                            <button><i class="bi bi-search"></i></button>
+                        </div>
+                        <button class="login-btn"><i class="bi bi-person"></i> Login</button>
+                        <button class="cart-btn" id="cart-btn">
+                            <i class="bi bi-bag"></i>
+                            <span class="cart-count" id="cart-count">0</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ABOUT PAGE HEADER -->
+    <section class="page-header py-5 bg-black text-white">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3" style="font-family: 'Playfair Display', serif;">About Us</h1>
+            <p class="lead text-white-50">Discover our story and passion for fashion</p>
+        </div>
+    </section>
+
+    <!-- ABOUT CONTENT -->
+    <section class="about-content py-5">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80"
+                            alt="About Us" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="section-title mb-4">Our Story</h2>
+                    <p class="lead">Fashion Hub was born from a passion for bringing the latest fashion trends to
+                        everyone, everywhere.</p>
+                    <p>Since our inception, we've been committed to providing high-quality, stylish clothing that makes
+                        you look and feel great. Our curated collections feature the best designs from around the world,
+                        ensuring you always stay ahead of the fashion curve.</p>
+                    <p>We believe that fashion is a form of self-expression, and everyone deserves to look their best.
+                        That's why we offer a wide range of styles, sizes, and price points to suit every taste and
+                        budget.</p>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Our Values</h2>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="value-card text-center p-4">
+                        <div class="value-icon mb-3">
+                            <i class="bi bi-heart" style="font-size: 3rem; color: var(--primary-color);"></i>
+                        </div>
+                        <h4>Quality First</h4>
+                        <p>We source only the finest materials and work with trusted manufacturers to ensure every piece
+                            meets our high standards.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="value-card text-center p-4">
+                        <div class="value-icon mb-3">
+                            <i class="bi bi-lightning-charge" style="font-size: 3rem; color: var(--primary-color);"></i>
+                        </div>
+                        <h4>Trend Setting</h4>
+                        <p>Our fashion experts constantly scout the globe for the latest trends, bringing you
+                            cutting-edge styles before they hit the mainstream.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="value-card text-center p-4">
+                        <div class="value-icon mb-3">
+                            <i class="bi bi-people" style="font-size: 3rem; color: var(--primary-color);"></i>
+                        </div>
+                        <h4>Customer Focus</h4>
+                        <p>Your satisfaction is our priority. We're committed to providing exceptional service and
+                            support at every step of your shopping journey.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Why Choose Us</h2>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="feature-item d-flex align-items-start">
+                        <div class="feature-icon me-3">
+                            <i class="bi bi-check-circle-fill"
+                                style="font-size: 2rem; color: var(--primary-color);"></i>
+                        </div>
+                        <div>
+                            <h5>Free Shipping</h5>
+                            <p>Free shipping on orders above ₹999. Fast and reliable delivery to your doorstep.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="feature-item d-flex align-items-start">
+                        <div class="feature-icon me-3">
+                            <i class="bi bi-check-circle-fill"
+                                style="font-size: 2rem; color: var(--primary-color);"></i>
+                        </div>
+                        <div>
+                            <h5>Easy Returns</h5>
+                            <p>Not satisfied? Return within 30 days for a full refund. No questions asked.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="feature-item d-flex align-items-start">
+                        <div class="feature-icon me-3">
+                            <i class="bi bi-check-circle-fill"
+                                style="font-size: 2rem; color: var(--primary-color);"></i>
+                        </div>
+                        <div>
+                            <h5>24/7 Support</h5>
+                            <p>Our customer service team is available round the clock to assist you with any queries.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="feature-item d-flex align-items-start">
+                        <div class="feature-icon me-3">
+                            <i class="bi bi-check-circle-fill"
+                                style="font-size: 2rem; color: var(--primary-color);"></i>
+                        </div>
+                        <div>
+                            <h5>Secure Payment</h5>
+                            <p>Shop with confidence. All transactions are secured with the latest encryption technology.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <h5>AURÉA</h5>
+                    <p>Your one-stop destination for the latest fashion trends and styles.</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Customer Service</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">© 2026 AURÉA | Inspired by Pentacode | All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
